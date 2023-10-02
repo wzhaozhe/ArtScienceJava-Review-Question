@@ -1,0 +1,15 @@
+/*
+ * File name: HelloWorldExercises
+ * ------------------------------
+ * This program is from programming exercises of Ch2
+ */
+
+import acm.program.*;
+import acm.graphics.*;
+
+
+public class HelloWorldExercise extends GraphicsProgram{
+	public void run(){
+		add(new GLabel("I love Java", 100, 75));
+	}
+}
